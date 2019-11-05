@@ -1,0 +1,124 @@
+.startBtn {
+    display: block;
+    margin-top: -30%;
+    margin-left: 20%;
+    position: relative;
+    z-index: 10;
+    top: -1600px;
+    background-color: transparent;
+    border: none;
+}
+
+#titleImg{
+	margin-left:-15%;
+}
+
+#audioButton{
+    position: fixed;
+    top: 430px;
+    left: 1055px;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+
+#offButton{
+    position: fixed;
+    top: 310px;
+    left: 1058px;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+
+#pillowImg{
+    z-index: 4;
+    height: 150px;
+    margin-top: 5%;
+    vertical-align: top;
+}
+
+#sheetImg{
+    z-index: 2;
+    height: 300px;
+}
+
+#bedDiv{
+    margin-left: 28%;
+    margin-top: -25%;
+}
+
+#mobileImg{
+    width: 500px;
+    margin-left: 35%;
+    margin-top:-45%;
+}
+
+#nasaSuit{
+    margin-top: 64%;
+    margin-left: 23%;
+}
+
+#nasaHelm{
+    margin-top: 41%;
+    margin-left: 23%;
+}
+
+#cockPit{
+    position: fixed;
+    width:100%;
+    margin-top: -160%;
+    z-index: 2;
+    left: 0px;
+}
+
+#cockPitBlink{
+    position: fixed;
+    width:100%;
+    margin-top: -160%;
+    z-index: 3;
+    left: 0px;
+}
+
+::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+#bgImg{
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    left: 0px;
+    top: -7900px;
+}
+
+#startRocketBtn{
+    position: fixed;
+    width:100%;
+    margin-top: -160%;
+    z-index: 3;
+    left: 0px;
+}
+
+#rocket{
+    width:100px;
+}
+
+#scrollDown{
+    width: 200px;
+}
+
+.beeps{
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    border: white;
+    z-index: 10;
+}
+
+body {
+    background: url("img/bg.png")no-repeat;
+    height: 5200px;
+    width: 1920px;
+    overflow-x: hidden;
+}
